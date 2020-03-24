@@ -1,0 +1,40 @@
+#github   steps when saving your code during your rproject 
+
+1. git add .  
+2. git commit -m "some message goes here highlighting what youdid 
+3. git push origin master 
+
+
+Thing I need to   do for this project 
+
+1. Must be at least two levels deep. 
+2. Must use  scrapper or an API 
+3. Get the information from the API and send save it into objcets 
+
+Steps on how to achieve this. 
+
+1. Pick an API (Sportsdata API ) 
+
+# url = "https://www.balldontlie.io/api/v1/players?per_page=100" 
+
+This is the code for the API class 
+#     def self.get_players
+#         url = "https://www.balldontlie.io/api/v1/players"
+#         response = HTTParty.get(url)
+#         response["data"].each do |p| 
+        
+#           first_name = p["first_name"]
+#           last_name = p["last_name"]  
+#         end  
+#     end 
+# end  
+
+This is the code for the cli class 
+
+# def call 
+#     puts "Welcome to SportsNmore!" 
+#     puts "Which NBA player would you like to look up?"
+#     input = gets.chomp.downcase
+#     SportsNmore::API.get_players
+# end 
+# end
